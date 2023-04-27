@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(183, 207, 213);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    
+}
+
+.logo {
+    width: 90px;
+    margin-left: 10%;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 1rem;
+    transition: color 0.3s ease-out;
+}
+
+.nav-links a:hover {
+    color: #007aff;
+}
+
+/* Accessories */
+.accessories {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+}
+@font-face {
+    font-family: MeowFont;
+    src: url(Cute_Meow.otf);
+   }
+
+.accessories-text {
+    margin-top: 5rem;
+    font-family: MeowFont;
+    font-size: 6rem;
+
+}
+
+
+
+    
+    .accessories-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .accessories h1 {
+    font-size: 5rem;
+    text-align: center;
+    letter-spacing: 4px;
+    }
+    
+    .magsafe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    }
+    
+    .magsafe-text {
+    margin-right: 5rem;
+    }
+    
+    .magsafe-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    }
+    
+    .shop-magsafe {
+    display: inline-block;
+    background-color: #007aff;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-out;
+    }
+    
+    .shop-magsafe:hover {
+    background-color: #0058a8;
+    }
+    
+    .search-bar {
+    text-align: center;
+    margin-bottom: 3rem;
+    }
+    
+    .search-bar h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    }
+    
+    .search-bar input[type="text"] {
+    padding: 1rem;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+    width: 60%;
+    font-size: 1.2rem;
+    }
+    
+    .search-bar button {
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0 5px 5px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+    }
+    
+    .search-bar button:hover {
+    background-color: #0058a8;
+    }
+    
+    /* Products */
+    .products {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .products img {
+    max-width: 100%;
+    }
+
+/*
+*/
+
